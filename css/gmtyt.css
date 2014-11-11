@@ -1,3 +1,23 @@
-body {
-	background-color: #225;
+#give, #give img {
+  width:100%;
+  margin:0;
+  padding:0; 
+  border:0;
+
+}
+img.hover {
+  display:none;
+
+  
+}
+
+#give:hover img {
+  display:none;
+
+  
+}
+#give:hover img.hover {
+  display:block;
+  
+
 }
